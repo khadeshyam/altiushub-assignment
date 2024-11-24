@@ -1,0 +1,10 @@
+name: CI/CD demo
+on: [push]
+jobs:
+  echo-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo test
+        run:  echo "Hello world"
+
+
